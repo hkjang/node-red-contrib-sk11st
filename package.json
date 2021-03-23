@@ -1,0 +1,34 @@
+{
+  "name": "node-red-contrib-sk11st",
+  "version": "1.0.0",
+  "description": "Node-RED node for sk11st",
+  "main": "node.js",
+  "scripts": {
+    "test": "mocha \"test/**/*_spec.js\" --timeout 3000"
+  },
+  "node-red": {
+    "nodes": {
+      "sk11st": "node.js"
+    }
+  },
+  "keywords": [
+    "node-red-contrib-contribgen",
+    "node-red",
+    "sk11st",
+    "11st",
+    "11번가"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hkjang/node-red-contrib-sk11st.git"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/hkjang/node-red-contrib-sk11st#readme",
+  "bugs": {
+    "url": "https://github.com/hkjang/node-red-contrib-sk11st/issues"
+  },
+  "devDependencies": {
+    "sk11st": "^1.0.1"
+  },
+  "license": "Apache-2.0"
+}
