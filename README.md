@@ -14,6 +14,9 @@ command in your Node-RED user directory, typically `~/.node-red`
     npm install node-red-contrib-sk11st
     npm install node-red-contrib-iconv
 
+## wrapper sk11st
+- https://www.npmjs.com/package/sk11st
+- http://openapi.11st.co.kr/openapi/OpenApiGuide.tmall
 
 ## sample params
 ```js
