@@ -1,6 +1,6 @@
 {
   "name": "node-red-contrib-sk11st",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Node-RED node for sk11st",
   "main": "node.js",
   "scripts": {
@@ -27,7 +27,7 @@
   "bugs": {
     "url": "https://github.com/hkjang/node-red-contrib-sk11st/issues"
   },
-  "devDependencies": {
+  "dependencies": {
     "sk11st": "^1.0.1"
   },
   "license": "Apache-2.0"
