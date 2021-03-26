@@ -1,6 +1,6 @@
 {
   "name": "node-red-contrib-sk11st",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Node-RED node for sk11st",
   "main": "node.js",
   "scripts": {

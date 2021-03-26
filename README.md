@@ -11,8 +11,10 @@ To install the stable version use the `Menu - Manage palette - Install`
 option and search for node-red-contrib-sk11st, or run the following
 command in your Node-RED user directory, typically `~/.node-red`
 
-    npm install node-red-contrib-sk11st
+    npm install node-red-contrib-xmljson
     npm install node-red-contrib-iconv
+    npm install sk11st
+    npm install node-red-contrib-sk11st
 
 ## wrapper sk11st
 - https://www.npmjs.com/package/sk11st
