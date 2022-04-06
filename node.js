@@ -16,16 +16,13 @@ module.exports = function (RED) {
         this.on('input', function (msg) {
             for (var i in msg) {
                 if (i !== 'req' | i !== 'res' | i !== 'payload' | i !== 'send' | i !== '_msgid') {
-                    node[i] = node[i] || msg[i];
+                    node[i] = msg[i] || node[i];
                 }
             }
             if(node.params === '' | typeof node.params === 'undefined'){
                 node.params = {};
             }
-            // node.error(node.api);
-            // node.error(node.action);
-            // node.error(node.appKey);
-            // node.error(node.params);
+
             sk11st[node.api][node.action](node.appKey, node.params).then(response => {
                 msg.payload = response;
                 node.send(msg);
